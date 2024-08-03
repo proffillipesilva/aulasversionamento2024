@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+// Esse eh um comentario feliz
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
