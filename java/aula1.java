@@ -17,6 +17,6 @@ public class Main {
                 soma += i;
             }
         }
-        return soma;
+        ;
     }
 }
