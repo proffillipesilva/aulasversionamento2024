@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Esse eh um comentario feliz
+// esse é um comentario bacano
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -9,7 +9,7 @@ public class Main {
         System.out.println(soma);
     }
 
-    // Essa funcao eh legal
+    // ioiiioioioi
     public static int calculaSomaDosMultiplosDeCincoEImpar(int n){
         int soma = 0;
         for(int i=1; i<=n; i++){
