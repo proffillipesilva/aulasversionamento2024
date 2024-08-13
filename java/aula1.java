@@ -19,4 +19,8 @@ public class Main {
         }
         return soma;
     }
+
+    public void print(String msg) {
+        System.out.println(msg)
+    }
 }
