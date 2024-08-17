@@ -9,7 +9,6 @@ public class Testes {
     @Test
     void test1(){
         List<String> frutasList = List.of("banana" ,"pera", "uva", "pera", "salada mista", "pera");
-        // mais um comment
         Set<String> algoSet = new HashSet<>(frutasList);
                 //Set.of("banana" ,"pera", "uva", "pera", "salada mista", "pera");
         System.out.println(frutasList);
