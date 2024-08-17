@@ -9,24 +9,24 @@ public class Testes {
     @Test
     void test1(){
         List<String> frutasList = List.of("banana" ,"pera", "uva", "pera", "salada mista", "pera");
-        Set<String> frutasSet = new HashSet<>(frutasList);
+        Set<String> algoSet = new HashSet<>(frutasList);
                 //Set.of("banana" ,"pera", "uva", "pera", "salada mista", "pera");
         System.out.println(frutasList);
-        System.out.println(frutasSet);
+        System.out.println(algoSet);
 
     }
 
     @Test
     void test2_hashSet(){
         List<String> frutasList = List.of("banana" ,"pera", "uva", "pera", "salada mista", "pera");
-        HashSet<String> frutasSet = new HashSet<>();
+        HashSet<String> algoSet = new HashSet<>();
         frutasSet.add("banana");
         frutasSet.add("pera");
         frutasSet.add("banana");
         frutasSet.add("pera");
         frutasSet.add("uva");
         System.out.println(frutasList);
-        System.out.println(frutasSet);
+        System.out.println(algoSet);
 
     }
 
