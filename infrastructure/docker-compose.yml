@@ -1,0 +1,13 @@
+#docker run -d --name my_mysql -p 10000:3306 -e MYSQL_ROOT_PASSWORD=1234 -v mysql_data:/var/lib/mysql mysql
+version: '3.7'
+
+services:
+  db:
+    container_name: my_mysql
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=1234
+    ports:
+      - "10000:3306"
+    volumes:
+      - ./mysql_data:/var/lib/mysql
