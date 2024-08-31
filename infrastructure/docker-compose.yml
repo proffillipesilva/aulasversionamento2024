@@ -1,4 +1,5 @@
 #docker run -d --name my_mysql -p 10000:3306 -e MYSQL_ROOT_PASSWORD=1234 -v mysql_data:/var/lib/mysql mysql
+#docker run -p 8080:80 minha-imagem:latest
 version: '3.7'
 
 services:
@@ -11,3 +12,10 @@ services:
       - "10000:3306"
     volumes:
       - ./mysql_data:/var/lib/mysql
+
+  site:
+    container_name: meu-site
+    #image: minha-imagem:latest
+    build: "./minha-imagem"
+    ports:
+      - 8080:80
