@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  site:
+    container_name: meu-site-python
+    build: "./servidor-python"
+    ports:
+      - 9000:9000
