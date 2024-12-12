@@ -41,4 +41,8 @@ public class Testes {
             this.raca = raca;
         }
     }
+
+    public void print(String msg) {
+        System.out.println(msg + "!!!")
+    }
 }
